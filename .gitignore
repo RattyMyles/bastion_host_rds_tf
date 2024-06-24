@@ -1,0 +1,6 @@
+.idea
+dist
+build
+/terraform/.terraform
+/terraform/plan
+/terraform/.terraform.lock.hcl
