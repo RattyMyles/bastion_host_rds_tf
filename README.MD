@@ -1,7 +1,11 @@
+Please see this document for more information: https://medium.com/me/stats/post/a972c9f599ac
+
+
+Summary: 
+
+Below is a quick deploy and stroy script of this project. Please let me know if you have any questions or any feedback and I can amend this project.Thank you.
 # bastion_host_rds_tf
 Deployment example of how to deploy a bastion host and aws rds.
-
-
 
 aws ec2 create-key-pair --key-name MyKeyPair --query 'KeyMaterial' --output text > MyKeyPair.pem
 chmod 400 MyKeyPair
